@@ -2,10 +2,9 @@
 
 > Naver Shpping Trend 조회
 
-
 ## 프로젝트 생성
 
-``` bash
+```bash
 1. git에서 repository 생성
 2. 로컬에 git clone
 3. npm init -y
@@ -14,38 +13,47 @@
 6. sudo npm install -g vue-cli
 7. sudo npm install -g @vue/cli-init
 8. vue init webpack .
+9. npm install bootstrap-vue bootstrap --save
+10. npm install axios
 ```
-* vue init webpack 프로젝트명 을 한다음에 git으로 연결해도 무방함.
+
+- vue init webpack 프로젝트명 을 한다음에 git으로 연결해도 무방함.
 
 ## 로컬 빌드
-``` bash
+
+```bash
+npm install
 npm run dev
 ```
 
 ## 배포용 빌드
 
 ## git 배포
-``` bash
-git add * 
+
+```bash
+git add *
 git commit -m "comment..."
 git push -u origin develop
 ```
 
 ## firebase 배포
-``` bash
-1. npm install -g firebase
+
+```bash
+1. npm install -g firebase-tools
 2. firebase login
-3. firebase deploy 
+3. firebase init
+4. firebase deploy
 ```
 
 ## firebase 로컬 확인
-``` bash
+
+```bash
 firebase serve
 ```
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 

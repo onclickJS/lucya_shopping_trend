@@ -1,8 +1,8 @@
 {
   "name": "lucya_shopping_trend",
   "version": "1.0.0",
-  "description": "Naver Shpping Trend 조",
-  "author": "Adele <adele@ghsoft.biz>",
+  "description": "Naver Shpping Trend 조회",
+  "author": "onclickJS <neddang.36@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
